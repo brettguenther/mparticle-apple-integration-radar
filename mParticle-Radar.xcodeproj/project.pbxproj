@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB695FB31F5F549A00A7F4CF /* RadarSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB695FB21F5F549A00A7F4CF /* Radar.framework */; };
+		DB695FB31F5F549A00A7F4CF /* RadarSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB695FB21F5F549A00A7F4CF /* RadarSDK.framework */; };
 		DB7E05A61CB819D300967FDF /* MPKitRadar.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7E05A41CB819D300967FDF /* MPKitRadar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB7E05A71CB819D300967FDF /* MPKitRadar.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7E05A51CB819D300967FDF /* MPKitRadar.m */; };
 		DB9401701CB703F2007ABB18 /* mParticle_Radar.h in Headers */ = {isa = PBXBuildFile; fileRef = DB94016F1CB703F2007ABB18 /* mParticle_Radar.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -110,7 +110,7 @@
 				TargetAttributes = {
 					DB94016B1CB703F2007ABB18 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = Q948K5LXGZ;
+						DevelopmentTeam = U6493D9J45;
 					};
 				};
 			};
@@ -119,6 +119,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = DB9401621CB703F2007ABB18;
@@ -248,6 +249,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U6493D9J45;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -268,7 +270,9 @@
 		DB9401761CB703F2007ABB18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U6493D9J45;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
